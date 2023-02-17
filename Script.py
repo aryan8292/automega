@@ -44,7 +44,7 @@ Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how su
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/starkownerbot)</code>
+<code>[Button Text](buttonurl:https://t.me/ary_botz)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
