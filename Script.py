@@ -17,7 +17,7 @@ Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how su
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/starkownerbot>STARK OWNER</a>"""
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/ary_botz>STARK OWNER</a>"""
     SOURCE_TXT = """<b>Stark Owner Developed this Bot.</b>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
