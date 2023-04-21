@@ -1,1 +1,23 @@
 
+services :
+  - type : web
+    name : alpha-sujal
+    env : python
+    plan : free
+    repo : https://github.com/aryan8292/automega
+    buildCommand : pip3 install -r requirements.txt --no-cache-dir
+    startCommand : python3 bot.py
+    envVars :
+      - key : BOT_TOKEN
+        sync : false
+      - key : ADMINS
+        sync : false
+      - key : DATABASE_URI
+        sync : false
+      - key : LOG_CHANNEL
+        sync : false
+      - key : URL_SHORTENR_WEBSITE
+        sync : false
+      - key : URL_SHORTNER_WEBSITE_API
+        sync : false
+    autoDeploy : false
