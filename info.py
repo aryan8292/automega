@@ -22,7 +22,7 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/61367ff9067872ef9c1d4.jpg')).split()
+PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5mMSYIO_JsvwPUkyMtCJbVhhskhPcwchI-KbveQUh39KBmtoGW-eAlqbFOiY8HF1TawOZsyH17K83009-rmewBuurtiGpmP_3mBN5-qI1KzTKFuINOq0-bF9XQu07hESKtDknIKrcVmxXkBMHjv1VkDucj4PiCIzF6GnKvjcsJNiGteJ2uCxdh-g7yg/s1280/IMG_20230226_020140_812.jpg https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl1dzk55y2xjP4Hn8WQpKsZZCJtkb6RESSIvkqmsfO8HBKeJy-5ZVHCTHU3xSMNNvEI1ZEbGh18TxSJlHSifRtpmCCUKKm7J_EBpxH6yDo-2NWcIsYgw6Go6zR1os2ujlR6yVRiYcDFMoFjaOG61d3akaBbQQvjQB6ilMZ7TJHRv6-5Bt10VVJz89L9g/s1260/IMG_20230226_020215_064.jpg https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2BgJXzWlu336Kqd6lQhIUWyge4Kf_PQZ_XejlsQE4qZgLCuHWEZENNKVqN8u9gy9oEJYqp4LH9bkLlJzPk9FwFBaPUY2N3-LnPfrD5r9Se-bOWxyE24yr-vhziJESAc90tA5fY2tD8GAHVsR0bTi3Q0ypC498olcrrbLqEpgQOD607f7yTxDznv-Kzw/s1280/IMG_20230226_020232_600.jpg https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM7UWEMA3ROb-NGEGfd1PrbIdkJvn6bBSUo4sK1h8ObxU-2n5ofwbV52euWglaG68Lhukk83mrf7kV5y-1LLg1re6CiO8mqtPKAa5TIBLobYHU9VLNF5tYc94-fRV-rqAXE6drsrUPcw0wDYC2CoQv2g6EiZ3vn1tzmu8W7QOn8t2Os_qH9RXdfrS5QA/s1280/IMG_20230226_020206_164.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5203973507').split()]
