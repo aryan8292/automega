@@ -17,7 +17,7 @@
       "inline"
     ],
     "website": "https://github.com/LazyDeveloperr",
-    "repository": "https://github.com/LazyDeveloperr/LazyPrincessV2",
+    "repository": "https://github.com/aryan8292/automega",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -76,7 +76,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
